@@ -1,0 +1,23 @@
+#menu {
+    position: absolute;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    overflow: auto;
+}
+
+#cont {
+    position: absolute;
+    left: 20%;
+    width: 80%;
+    height: 94%;
+    overflow: auto;
+}
+
+#foot {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 20px;
+    
+}
