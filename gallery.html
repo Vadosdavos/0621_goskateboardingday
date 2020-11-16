@@ -2,53 +2,57 @@
 <html lang="ru">
 
 <head charset="UTF-8">
-    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontawesome-free-5.15.1-web/css/all.css">
+    <link href="css/fontawesome-free-5.15.1-web/css/fontawesome.css" rel="stylesheet">
+    <link href="css/fontawesome-free-5.15.1-web/css/brands.css" rel="stylesheet">
+    <link href="css/fontawesome-free-5.15.1-web/css/solid.css" rel="stylesheet">
     <title>Международный день скейтбординга</title>
 </head>
 
-<body style="font-family: 'Montserrat', sans-serif; line-height: 22px;">
+<body>
     <nav id="menu">
         <ul>
-            <li><a href="index.html">О событии</a></li>
-            <li><a href="events.html">Дополнительно</a>
+            <li><i class="fas fa-star"></i> <a href="index.html">О событии</a></li>
+            <li><i class="fas fa-info"></i> <a href="events.html">Дополнительно</a></li>
                 <ul>
-                    <li><a href="events.html#hist">История скейтбординга</a></li>
-                    <li><a href="events.html#skate">Устройство доски</a></li>
-                    <li><a href="events.html#gsd">Празднование</a></li>
-                </ul>
-            </li>
-            <li><a href="gallery.html">Галерея</a></li>
+                    <li><i class="fas fa-history"></i> <a href="events.html#hist">История скейтбординга</a></li>
+                    <li><i class="fas fa-tools"></i> <a href="events.html#skate">Устройство доски</a></li>
+                    <li><i class="fas fa-fire"></i> <a href="events.html#gsd">Празднование</a></li>
+                </ul>            
+            <li><i class="fas fa-image"></i> <a href="gallery.html">Галерея</a></li>
         </ul>
+        <img class="imgrun" src="image/sinac.jpg" alt="Скейтбординг не преступление">
     </nav>
     <div id="cont">
-        <table width="100%" align="center" style="text-align: center; margin-top: 5px">
+        <table width="50%" align="center">
             <tr>
-                <td width="50%"><img width="100%" src="image/gal1.jpg" alt="Изображение скейтбординга 1"></td>
-                <td width="50%"><img width="100%" src="image/gal2.jpg" alt="Изображение скейтбординга 2"></td>                
+                <td><img src="image/gal1.jpg" alt="Изображение скейтбординга 1"></td>
+                <td><img src="image/gal2.jpg" alt="Изображение скейтбординга 2"></td>                
             </tr>
             <tr>
-                <td width="50%"><img width="100%" src="image/gal3.jpg" alt="Изображение скейтбординга 3"></td>
-                <td width="50%"><img width="100%" src="image/gal4.jpg" alt="Изображение скейтбординга 4"></td>                
+                <td><img src="image/gal3.jpg" alt="Изображение скейтбординга 3"></td>
+                <td><img src="image/gal4.jpg" alt="Изображение скейтбординга 4"></td>                
             </tr>
             <tr>
-                <td width="50%"><img width="100%" src="image/gal5.jpg" alt="Изображение скейтбординга 5"></td>
-                <td width="50%"><img width="100%" src="image/gal6.jpg" alt="Изображение скейтбординга 6"></td>                
+                <td><img src="image/gal5.jpg" alt="Изображение скейтбординга 5"></td>
+                <td><img src="image/gal6.jpg" alt="Изображение скейтбординга 6"></td>                
             </tr>
         </table>
-        <div style="text-align: center;">
-            <a style="padding: 8px; text-decoration: none;" href="events.html">&lt; Назад</a>
-            <a style="padding: 8px; text-decoration: none;" href="index.html">На главную</a>
-            <a style="padding: 8px; text-decoration: none;">Вперёд &gt;</a>
+            <div class="button">
+        	    <a href="events.html">&lt; Назад</a>
+                <a href="index.html">На главную</a>
+                <span>Вперёд &gt;</span>
+            </div>  
         </div> 
-    </div>
-    
+    </div>    
     <footer id="foot">
-        <div style="text-align: center;">
+        <p>
             © Безымянный Вадим Александрович | 2020 |
             <a href="https://www.instagram.com/vadosbezimeni/"><img width="20" src="image\instagram.png" alt= "Instagram"></a> 
             <a href="https://t.me/inemidavos"><img width="20" src="image\tele.png" alt= "Telegram"></a>
-        </div>
+        </p>
     </footer>
 </body>
 
